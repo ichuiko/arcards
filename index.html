@@ -4,13 +4,13 @@
 </head>
 <body>
   <a-scene embedded arjs>
-    <a-marker preset="hiro">
+    <a-marker-camera preset='custom' type='pattern' url='https://ichuiko.github.io/arcards/marker.patt'>
       <a-entity  
       rotation="-90 0 0"
       scale="0.1 0.1 0.1" 
       gltf-model="https://ichuiko.github.io/arcards/exp.gltf">
       </a-entity>
-    </a-marker>
+    </a-marker-camera>
     <a-entity camera></a-entity>
   </a-scene>
 </body>
